@@ -1,4 +1,5 @@
-Sum = 0
-for i in range(1, 51):
-    Sum += i
-print("The sum of numbers from 1 to 50 is:",Sum)
+from math import *
+num = int(input("Enter a number: "))
+print("square root: ",sqrt(num))
+print("logarithm: ",log(num))
+print("sine: ",sin(num))

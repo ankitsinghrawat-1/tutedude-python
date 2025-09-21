@@ -1,5 +1,5 @@
 task1     
-Takes the user input and tell the given number is even or odd.
+Takes the user input and return the factorial of that number.
 
 task2    
-Using for loop it prints the sum of number between 1 to 50 and displays the sum.
+Takes the user input and return the value of square root, logarithm, and sine of that number using the math module.
