@@ -1,9 +1,6 @@
-def factorial(n):
-    if n < 2:
-        return 1
-    else:
-        return n * factorial(n-1)
+num = int(input("Enter a number: "))
 
-num = int(input("enter a number: "))
-fact = factorial(num)
-print("Factorial of",num,"is",fact)
+if num % 2 == 0:
+    print(f"{num} is an even number.")
+else:
+    print(f"{num} is an odd number.")

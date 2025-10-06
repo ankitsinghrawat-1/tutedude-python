@@ -1,5 +1,5 @@
-task1     
-Takes the user input and return the factorial of that number.
+task1
+It takes the user input and check the number whether is odd or even. 
 
-task2    
-Takes the user input and return the value of square root, logarithm, and sine of that number using the math module.
+task2
+It itrates the number from 1 to 50 and print its sum.
