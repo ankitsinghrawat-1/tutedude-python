@@ -4,6 +4,6 @@ with open("output.txt", "r+") as file:
     print("Data successfully written to output.txt")
     xdata = input("Enter additional text to append: ")
     file.write(xdata + "\n")
-    file.seek(0)  # Move pointer to the start of the file
+    file.seek(0)
     rdata = file.read()
     print("Final contents of the output.txt: ", rdata)
